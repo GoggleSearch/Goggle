@@ -346,12 +346,8 @@ inputs.forEach(input => {
   });
 });
 
-// Focus on the search input when the page loads
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('searchInput').focus();
-});
-
-document.addEventListener('DOMContentLoaded', function() {
+  // Focus on the search input when the page loads
+  document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('searchInput');
     searchInput.focus();
 
@@ -359,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function() {
     searchInput.addEventListener('click', function() {
       this.select();
     });
-});
+  });
 </script>
 
 </body>
